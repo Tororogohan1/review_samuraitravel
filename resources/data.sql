@@ -86,4 +86,14 @@ INSERT IGNORE INTO reservations (id, house_id, user_id, checkin_date, checkout_d
 INSERT IGNORE INTO reservations (id, house_id, user_id, checkin_date, checkout_date, number_of_people, amount) VALUES (10, 10, 1, '2023-04-01', '2023-04-02', 6, 10000);
 INSERT IGNORE INTO reservations (id, house_id, user_id, checkin_date, checkout_date, number_of_people, amount) VALUES (11, 11, 1, '2023-04-01', '2023-04-02', 2, 6000);
 
-
+--reviewsテーブル
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (1, 1, 1, 5, '最高の体験でした！また利用したいです。', '2024-04-01 10:00:00', '2024-04-01 10:00:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (2, 1, 2, 4, 'とても良かったですが、少し騒がしかったです。', '2024-04-02 12:30:00', '2024-04-02 12:30:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (3, 2, 3, 3, '普通でした。期待していたほどではなかったです。', '2024-04-03 14:45:00', '2024-04-03 14:45:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (4, 2, 4, 5, '素晴らしいサービスと快適な部屋でした！', '2024-04-04 09:20:00', '2024-04-04 09:20:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (5, 3, 5, 2, '部屋が思っていたより狭く、少し不便でした。', '2024-04-05 16:10:00', '2024-04-05 16:10:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (6, 3, 6, 1, '清潔ではなく、もう利用しないと思います。', '2024-04-06 18:05:00', '2024-04-06 18:05:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (7, 4, 7, 4, '概ね満足ですが、Wi-Fiの速度が遅かったです。', '2024-04-07 11:15:00', '2024-04-07 11:15:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (8, 4, 8, 5, '景色が最高で、また泊まりたいです！', '2024-04-08 20:30:00', '2024-04-08 20:30:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (9, 5, 9, 3, '値段相応といった感じです。特に不満はありません。', '2024-04-09 13:40:00', '2024-04-09 13:40:00');
+INSERT IGNORE INTO reviews (id, house_id, user_id, review_star, review_comment, created_at, updated_at) VALUES (10, 5, 10, 5, 'スタッフの対応が素晴らしく、快適に過ごせました。', '2024-04-10 15:50:00', '2024-04-10 15:50:00');
